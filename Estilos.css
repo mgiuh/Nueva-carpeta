@@ -1,17 +1,52 @@
 .navbar { 
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #1a1a1a;
-  color: white;
-  text-decoration: none;
-  display: flex;
-  justify-content: space-between;
-  aling-items: center;
-  padding: 1rem 2rem;
-  box-shadow: 0 2px 4px
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    aling-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 4px
 rgba(0,0,0,0.2);
 z-index: 1000;
 font-family: Arial, sans-serif;
 }
+a {
+    color: blue;
+    text-decoration: none; 
+}
+
+    .banner-publicidad {
+    margin-top: 64px;
+    background-color: #111;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    border-bottom: 4px solid #00ffcc;
+    position: relative;
+}
+
+    .banner-publicidad a {
+    color: #00ffcc;
+    text-decoration: none;
+    }
+
+    .banner-publicidad:hover {
+    background-color: #222;
+    }
+    .btn {
+        background-color: blue;
+        color: #111;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 6px;
+        font-weight: bold;
+        text-decoration: none;
+        transition: background 0.2s;
+    }
